@@ -5,12 +5,12 @@ pipeline{
         {
             steps{
                 sh 'rm -rf node-app-inst '
-                
+                sh 'rm -rf /tmp/node-app-inst '
                 sh'git clone https://github.com/Pavan-971/node-app-inst.git'
                 
                 sh 'bash noderestart.sh'
-                sh 'cp -R node-app-inst /home/ec2-user/'
-                sh 'node /home/ec2-user/node-app-inst/node-app-inst/server.js'
+                sh 'cp -R node-app-inst /tmp'
+                sh 'node /tmp/node-app-inst/node-app-inst/server.js'
         
             }
         }
