@@ -4,7 +4,7 @@ pipeline{
         stage("Getting code from repo")
         {
             steps{
-                echo 'pdmkgkgkrg'
+                echo 'pdmkfffffgkgkrg'
             }
         }
     }
