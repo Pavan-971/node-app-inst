@@ -3,8 +3,7 @@ const bodyParser = require('body-parser');
 const app = express()
 
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.set('view engine', 'ejs')
+
 
 app.get('/', function (req, res) {
   res.render('/tmp/node-app-inst/Web-app/views/index');
