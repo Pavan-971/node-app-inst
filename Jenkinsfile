@@ -9,6 +9,7 @@ pipeline{
                 
                 sh 'bash node node-app-inst/noderestart.sh'
                 sh 'node node-app-inst/Web-app/server.js'
+                sh 'ok'
         
             }
         }
