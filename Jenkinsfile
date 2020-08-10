@@ -4,7 +4,7 @@ pipeline{
         stage("Getting code from repo")
         {
             steps{
-                sh 'sudo rm -rf /home/ec2-user/node-app-inst '
+                
                 sh'git clone https://github.com/Pavan-971/node-app-inst.git'
                 
                 sh 'bash noderestart.sh'
