@@ -4,6 +4,7 @@ pipeline{
         stage("Getting code from repo")
         {
             steps{
+                sh 'sh ' rm -rf node-app-inst ''
                 
                 sh'git clone https://github.com/Pavan-971/node-app-inst.git'
                 
