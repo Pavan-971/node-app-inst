@@ -4,7 +4,7 @@ pipeline{
         stage("Getting code from repo")
         {
             steps{
-                echo 'pavan kum     Raju'
+                echo 'pavan kum      ggjhg  Raju'
             }
         }
     }
