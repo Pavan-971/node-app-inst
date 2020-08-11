@@ -11,7 +11,7 @@ pipeline{
                 sh 'bash noderestart.sh'
                 sh 'cp -R node-app-inst /tmp'
                 sh 'node /tmp/node-app-inst/Web-app/server.js'
-                sh 'echo ohjjjfjjdddfkhhk'
+                sh 'echo ohjjjllfjjdddfkhhk'
         
             }
         }
